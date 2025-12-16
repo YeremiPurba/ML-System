@@ -43,5 +43,6 @@ jobs:
       # Run as a mlflow project
       - name: Run mlflow project
         run: |
-          mlflow run Project --env-manager=local
+          cd "Modul 2 - Membangun dan Mengelola Metadata dengan Tools Open-Source/Latihan Version Control/Project"
+          mlflow run . --env-manager=local
   
